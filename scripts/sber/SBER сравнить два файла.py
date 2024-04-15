@@ -4,10 +4,10 @@ from openpyxl import load_workbook
 from openpyxl.utils import units
 
 
-wb = load_workbook(f'/home/akozlov/Загрузки/SberTemplates/SBER/Процессоры/Гарнитура Bluetooth для смартфона.xlsx')
-wb2 = load_workbook(f'/home/akozlov/Загрузки/SberTemplates/SBER/Процессоры/Гарнитура Bluetooth для смартфона (1).xlsx')
-sheet = wb['Гарнитура Bluetooth для смартфо']
-sheet2 = wb2['Гарнитура Bluetooth для смартфо']
+wb = load_workbook(f'/home/akozlov/Документы/Project/Marvel/pimcore/pimcore/public/excelTemplates/sber/Видеокарта.xlsx')
+wb2 = load_workbook(f'/home/akozlov/Загрузки/SBER/Прибор для ухода за кожей лица.xlsx')
+sheet = wb.worksheets[1]
+sheet2 = wb2.worksheets[1]
 # mylist1=[]
 dates = [x.value for x in sheet.iter_rows(min_col=1,min_row=3,max_row=3).send(None)]
 # for hed in dates:
