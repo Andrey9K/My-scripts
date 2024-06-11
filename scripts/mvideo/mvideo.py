@@ -12,7 +12,7 @@ for i in ids:
 # for i in ids:
 #     js2.append(i)
 # js = list(set(js1 + js2))
-top_players = pd.read_excel('/home/akozlov/Загрузки//Шаблоны для тест проверки/Видеокарты (Агентский).xlsx', 'Шаблон для загрузки товаров')
+top_players = pd.read_excel('/home/akozlov/Документы/Project/Marvel/pimcore/pimcore/public/excelTemplates/mvideo/LED-телевизор 66+ (Маркетплейс).xlsx', 'Шаблон для загрузки товаров')
 hed = top_players.values[2].tolist ()
 result = list(set(js1) - set(hed))
 result2 = list(set(hed) - set(js1))

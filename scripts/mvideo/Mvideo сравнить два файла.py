@@ -4,17 +4,17 @@ from openpyxl import load_workbook
 from openpyxl.utils import units
 
 
-wb = load_workbook(f'/home/akozlov/Документы/Project/Marvel/pimcore/pimcore/public/excelTemplates/sber/Осушитель воздуха.xlsx')
-wb2 = load_workbook(f'/home/akozlov/Загрузки/Осушитель_воздуха.xlsx')
+wb = load_workbook(f'/home/akozlov/Документы/Project/Marvel/pimcore/pimcore/public/excelTemplates/mvideo/Смартфон (Маркетплейс).xlsx')
+wb2 = load_workbook(f'/home/akozlov/Загрузки/Смартфон (Маркетплейс).xlsx')
 sheet = wb.worksheets[1]
 sheet2 = wb2.worksheets[1]
 # mylist1=[]
-dates = [x.value for x in sheet.iter_rows(min_col=1,min_row=3,max_row=3).send(None)]
+dates = [x.value for x in sheet.iter_rows(min_col=1,min_row=4,max_row=4).send(None)]
 # for hed in dates:
 #     mylist1.append(hed) 
     
 # mylist2=[]
-dates2 = [x.value for x in sheet2.iter_rows(min_col=1,min_row=3,max_row=3).send(None)]
+dates2 = [x.value for x in sheet2.iter_rows(min_col=1,min_row=4,max_row=4).send(None)]
 # for hed in dates2:
 #     mylist2.append(hed) 
 # print(i)
