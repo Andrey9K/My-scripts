@@ -4,8 +4,8 @@ from openpyxl import load_workbook
 from openpyxl.utils import units
 
 
-wb = load_workbook(f'/home/akozlov/Документы/Project/Marvel/pimcore/pimcore/public/excelTemplates/sber/Осушитель воздуха.xlsx')
-wb2 = load_workbook(f'/home/akozlov/Загрузки/Осушитель_воздуха.xlsx')
+wb = load_workbook(f'/home/akozlov/Документы/Project/Marvel/pimcore/pimcore/public/excelTemplates/sber/Кондиционер мобильный.xlsx')
+wb2 = load_workbook(f'/home/akozlov/Загрузки/Кондиционер мобильный.xlsx')
 sheet = wb.worksheets[1]
 sheet2 = wb2.worksheets[1]
 # mylist1=[]
