@@ -6,8 +6,8 @@ import numpy as np
 # Установить 'pip install pyperclip' Установить библиотеку
 
 # Впишите category_id и type_id из дерева OZON
-category_id=24692739
-type_id=97651
+category_id=17039623
+type_id=91593
 
 
 url = "https://api-seller.ozon.ru/v1/description-category/attribute"

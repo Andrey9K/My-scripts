@@ -7,8 +7,8 @@ import numpy as np
 
 # Впишите category_id , type_id и attribute_id из дерева OZON
 category_id=17039635
-type_id=91456
-attribute_id=10578
+type_id=91451
+attribute_id=4692
 
 url = "https://api-seller.ozon.ru/v1/description-category/attribute/values"
 
